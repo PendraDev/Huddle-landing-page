@@ -4,54 +4,74 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    max-width: 375px;
+    width: 100%;
+    max-width: 480px;
+    min-width: 333px;
+    height: 800px;
     background: hsl(257, 40%, 49%);
     background-repeat: no-repeat;
     background-image: url("./images/bg-mobile.svg");
+    background-size: 480px auto;    
 }
 
-.main h1 {
-     max-width: 375px;
-    color: white;  
-    margin: auto;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.5em;  
+header .logo {       
+    width: 30%;
+    margin: 30px 0 0 35px;  
+    pa      
 }
 
-.main p {
-    color: white;
+img {
+    width: 80%;      
     margin: auto;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}    
-
-.logo {
-    width: 130px;
-    margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 65px;    
 }
 
 .main {
-    width: 300px;
-    margin-left: 35px;
-    margin-top: 60px;
+    width: 100%;
+    min-width: 150px;    
+    display: flex;
+    flex-wrap: wrap;    
     text-align: center;
 }
 
+.main h1 {
+    width: 80%;
+    line-height: 36px;    
+    margin: auto;
+    margin-top: 60px;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: white;    
+}
+
+.main p {
+    width: 80%;
+    line-height: 24px;    
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: white;
+}    
+
 .myButton {
-    line-height: 70px;  
-	background-color:#fcfffd;
+    margin: auto;    
+    line-height: 25px;	
 	border-radius:28px;	   
-	cursor:pointer;
-	color:#684bb1;
+	cursor:pointer;	
 	font-family:'Poppins', sans-serif;;
-	font-size: 1em;
-	padding:8px 80px;
+	font-size: 1.6rem;
+    padding:8px 80px;
+    color:#684bb1;
+    background-color:#fcfffd;
     text-decoration:none;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -63,12 +83,13 @@ body {
 	top:1px;
 } 
 
-footer {  
-    width: 375px; 
-    height: 120px; 
+footer { 
+    margin-top: 30px; 
+    width: 100%;    
     text-align: center;    
 }
-.fab {            
+
+.fab {             
     font-size: 12px;
     color: white;
     border: solid 1px white ;
@@ -80,4 +101,15 @@ footer {
 .fab:hover {
     background-color: #E880E8;    
 }
+/*
+@media (min-width: 480px) {
 
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+} */ 
