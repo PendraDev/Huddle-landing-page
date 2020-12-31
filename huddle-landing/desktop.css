@@ -2,8 +2,8 @@
     body { 
         width: 100%;
         max-width: 1440px;
-        height: 800px;
-        background-size: 1440px 800px;
+        height: 700px;
+        background-size: 1440px 850px;
     }
     header .logo {
         width: 200px ;
