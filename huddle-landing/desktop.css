@@ -1,0 +1,41 @@
+@media (min-width: 1200px) {
+    body { 
+        width: 100%;
+        max-width: 1440px;
+        height: 800px;
+        background-size: 1440px 800px;
+    }
+    header .logo {
+        width: 200px ;
+
+    }
+   .main2 h1 {
+        width: 90%;
+        margin-top: 100px;
+        line-height: 60px;        
+        padding-right: 180px;
+        text-align: left;
+        font-size: 4rem;
+        letter-spacing: 1.2px;
+    }
+   .main2 p {
+        width: 90%;
+        font-size: 1.8rem;
+        line-height: 27px;
+        padding-right: 90px;
+        text-align: left;
+    }
+    .myButton {
+        margin: 15px 40px;
+        line-height: 40px;
+        font-size: 1.8rem;
+        
+    }
+    .fab {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;  
+    }
+}
+
+
