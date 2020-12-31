@@ -1,0 +1,41 @@
+@media (min-width: 600px) {
+    body {
+        width: 100%;
+        height: 400px;
+        max-width: 800px;
+        background-size: 800px 500px;
+        background-position: left top;
+    }
+    main {
+        overflow: hidden;       
+    }
+    img {
+        width: 90%;
+        
+    }
+    .main1 { 
+        float: left;
+        width: 50%;
+    }
+    .main2 {
+        float: right;  
+        width: 50%;
+    }
+    
+    .main2 p,  {
+        width: 80%;       
+        font-size: 1.4rem;
+        
+    }    
+    div {
+        margin-right: 135px;
+
+    }
+
+    .fab {
+        float: right;
+        
+        
+
+    }
+}
